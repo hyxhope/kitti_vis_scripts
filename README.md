@@ -56,4 +56,9 @@ or 环境我打包好了，直接create就行了，如果直接create，就不�
 (kitti_vis)$ python kitti_object.py --show_lidar_with_depth --img_fov --const_box --vis --show_image_with_boxes --ind 138 --show_lidar_topview_with_boxes --gen_depth --split testing
 ```
 
+- depth vis
+```
+(kitti_vis)$ python vis_depth.py --split testing --ind 138
+```
+
 结果会存在imgs文件夹下
